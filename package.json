@@ -1,7 +1,7 @@
 {
   "name": "indexes-of",
   "description": "line String/Array#indexOf but return all the indexes in an array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/dominictarr/indexes-of",
   "repository": {
     "type": "git",

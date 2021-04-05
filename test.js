@@ -23,6 +23,13 @@ tape('indexes of - empty', function (t) {
 })
 
 
+tape('indexes of - empty array', function (t) {
+  var x = indexes([], 24)
+  t.deepEqual(x, [])
+  t.end()
+})
+
+
 tape('indexes of - all matches', function (t) {
   var x = indexes([8,8,8,8,8,8,8], 8)
   t.deepEqual(x, [0,1,2,3,4,5,6])
